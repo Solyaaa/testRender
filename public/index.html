@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mini Blog</title>
+</head>
+<body>
+  <h1>Mini Blog</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div id="posts"></div>
+  <form id="postForm">
+    <input type="text" id="title" placeholder="Title" required />
+    <textarea id="description" placeholder="Description" required></textarea>
+    <input type="text" id="author" placeholder="Author" required />
+    <button type="submit">Add Post</button>
+  </form>
+  <section id="about">
+    <h2>About</h2>
+    <p>Welcome to  Mini Blog, where you can share and explore posts!</p>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
